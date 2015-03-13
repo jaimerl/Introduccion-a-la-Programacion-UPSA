@@ -1,4 +1,4 @@
-#include"stdfx.h"
+#include"stdafx.h"
 #include<iostream.h>
 #include"conio.h"
 using namespace std;
@@ -10,9 +10,9 @@ int main() {
 	cin >> a;
 	if ((a<0)) {
 		a = (-1*a);
-	} else {
-		a = a;
-	}
+	} 
 	cout << "El valor absoluto es: " << a << endl;
+	getch();
 	return 0;
 }
+
