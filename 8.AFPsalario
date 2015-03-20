@@ -1,0 +1,21 @@
+#include"stdafx.h"
+#include<iostream.h>
+#include"conio.h"
+using namespace std;
+
+
+int main() {
+	float a,b,c;
+	cout << "Ingresar la cantidad de su salario: " << endl;
+	cin >> a;
+	cout << "SALARIO MINIMO: " << endl;
+	cin >> c;
+	if (a>=2*c) {
+		b = a*0.15;
+	} else {
+		b = a;
+	}
+	cout << "Su AFP a pagar es de: " << b << endl;
+	getch();
+	return 0;
+}
