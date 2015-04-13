@@ -18,7 +18,7 @@ void main()
    cout << "3.-Manuel Neuer" <<endl;
  
    cout << "0.-Salir" <<endl;
-   cout << "Elige a un jugador: " <<endl;
+   cout << "Elige a un jugador para conocer sus datos!: " <<endl;
    cin >> opcion;
    switch (opcion) {
       case 1: 
@@ -28,16 +28,19 @@ void main()
           cout << "2.-Club Deportivo" <<endl;
           cout << "3.-Goles en Clubes" <<endl;
           cout << "0.-Salir" <<endl;
-          cout << "Elige una opcion: " <<endl;
+          cout << "Escoge los datos que mas te interesan!: " <<endl;
           cin >> opcionM;
 		  switch (opcionM) {
-             case 1: cout << "Nacio en Rosario Argentina, el 24 de Junio de 1987" <<endl;
+             case 1: cout <<endl;
+				     cout << "Nacio en Rosario Argentina, el 24 de Junio de 1987" <<endl;
 				     cout << "Mide 1,69 metros" <<endl;
 					 cout << "Pesa 67 Kg" <<endl;
 				 break;
-	         case 2: cout << "Juega como delantero en el Futbol Club Barcelona, de la primera division de España" <<endl;
+	         case 2: cout <<endl;
+				     cout << "Juega como delantero en el Futbol Club Barcelona, de la primera division de España" <<endl;
 			 	 break;
-	         case 3: cout << "LLeva 399 en Clubes" <<endl;
+	         case 3: cout <<endl;
+				     cout << "LLeva 399 goles en Clubes" <<endl;
 			 	 break;
 	         case 0: cout << "Salir";break;
 	         default: cout << "Opcion invalida" << endl;
@@ -53,13 +56,16 @@ void main()
           cout << "Elige una opcion: " <<endl;
           cin >> opcionC;
 		  switch (opcionC) {
-             case 1: cout << "Nacio en Funchal, Madeira, Portugal, el 5 de Febrero de 1985" <<endl;
+             case 1: cout <<endl;
+				     cout << "Nacio en Funchal, Madeira, Portugal, el 5 de Febrero de 1985" <<endl;
 				     cout << "Mide 1,85 metros" <<endl;
 					 cout << "Pesa 80 Kg" <<endl;
 				 break;
-	         case 2: cout << "Juega como extremo en el Real Madrid Club de Futbol, de la primera division de España" <<endl;
+	         case 2: cout <<endl;
+				     cout << "Juega como extremo en el Real Madrid Club de Futbol, de la primera division de España" <<endl;
 			 	 break;
-	         case 3: cout << "LLeva 424 goles en Clubes" <<endl;
+	         case 3: cout <<endl;
+				     cout << "LLeva 424 goles en Clubes" <<endl;
 			 	 break;
 	         case 0: cout << "Salir";break;
 	         default: cout << "Opcion invalida" << endl;
@@ -75,13 +81,16 @@ void main()
           cout << "Elige una opcion: " <<endl;
           cin >> opcionN;
 		  switch (opcionN) {
-             case 1: cout << "Nacio en Gelsenkirchen, Nordrhein-Westfalen, el 27 de marzo de 1986" <<endl;
+             case 1: cout <<endl;
+				     cout << "Nacio en Gelsenkirchen, Nordrhein-Westfalen, el 27 de marzo de 1986" <<endl;
 				     cout << "Mide 1,93 metros" <<endl;
 					 cout << "Pesa 93 Kg" <<endl;
 				 break;
-	         case 2: cout << "Juega como portero en el club Bayern Múnich de la Bundesliga" <<endl;
+	         case 2: cout <<endl;
+				     cout << "Juega como portero en el club Bayern Múnich de la Bundesliga" <<endl;
 			 	 break;
-	         case 3: cout << "LLeva 19 goles en Clubes" <<endl;
+	         case 3: cout <<endl;
+				     cout << "LLeva 19 goles en Clubes" <<endl;
 			 	 break;
 	         case 0: cout << "Salir";break;
 	         default: cout << "Opcion invalida" << endl;
@@ -90,7 +99,8 @@ void main()
 	  case 0: cout << "Salir";break;
 	  default: cout << "Opcion invalida" << endl;
    }
-   cout << "Gracias" << endl;
+   cout <<endl;
+   cout << "Continua informandote!" << endl;
       } while (opcion != 0);
    getch();
 }
