@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{ int a, b, x, y;
+cout<<"Introduzca primer numero: ";
+cin>>a;
+cout<<"Introduzca segundo numero: ";
+cin>>b;
+
+if (a<b)
+{x=a;
+y=b;}
+else
+{x=b;
+y=a;}
+
+if(y%x==0)
+{
+cout<<"Es divisible ";
+}
+else {
+	cout<<"No es divisible ";
+}
+
+getch();
+}
