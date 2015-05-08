@@ -1,0 +1,41 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{
+	int a=0;
+	int b=0;
+	int c=0;
+
+	cout<<"Introduzca la variable a: ";
+	cin>> a;
+	cout<<"Introduzca la variable b: ";
+	cin>> b;
+	cout<<"Introduzca la variable c: ";
+	cin>>c;
+
+	int interiordelaraiz = (b*b)-4*(a*c);
+
+	int primerasolucion = 0;
+	int segundasolucion = 0;
+
+	if (interiordelaraiz < 0)
+	{ cout<<"Esta ecuacion no tiene solucion en los numeros reales";
+	}
+	else
+	{
+		primerasolucion = (-b+SQRT(interiordelaraiz))/(2*a);
+		segundasolucion = (-b-SQRT(interiordelaraiz))/(2*a);
+		if(primerasolucion == segundasolucion)
+		{ cout<<"La unica solucion es: "<< primerasolucion;
+		}
+		else
+		{ cout<<"La primera solucion es: "<<primerasolucion;
+		  cout<<"La segunda solucion es: "<<segundasolucion;
+		}
+	}
+
+	getch();
+}
+
