@@ -1,0 +1,38 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "Math.h"
+
+using namespace std;
+
+void main()
+{
+	int opcion, opcionB;
+
+	 do{
+     cout<<"Bienvenido a Cine Estrella" <<endl;
+	 cout <<endl;
+     cout << "Elija su pelicula" <<endl;
+	 cout << "1.-Los Vengadores 2" <<endl;
+     cout << "2.-La Cenicienta" <<endl;
+     cout << "3.-Rapido y Furioso 7" <<endl;
+	 cout << "4.-Star Wars 7" <<endl;
+     cout << "0.-Salir" <<endl;
+     cout << "Elija su pelicula para saber el horario!: " <<endl;
+     cin >> opcion;
+    switch (opcion) {
+      case 1: 
+		   cout <<endl;
+		    cout << "LOS VENGADORES 2" <<endl;
+	        cout << "1.-11:00 am - 13:30 pm." <<endl;
+            cout << "2.-14:00 pm - 16:30 pm " <<endl;
+            cout << "3.-17:00 pm - 19:30 pm" <<endl;
+	        cout << "4.-20:00 pm - 22:30 pm" <<endl;
+			cout << "0.-Salir" <<endl;
+            cout << "Elija su horario para escoger los asientos disponibles: " <<endl;
+            cin >> opcionB;
+			 switch (opcionB) {
+             case 1: 
+				 cout <<endl;
+				 cout << "Asientos Disponibles" <<endl;
+				 for 
